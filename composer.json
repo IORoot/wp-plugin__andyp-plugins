@@ -1,0 +1,6 @@
+{
+    "name": "andrewpearson/andyp_plugins",
+    "require": {
+        "erusev/parsedown": "^1.7"
+    }
+}
