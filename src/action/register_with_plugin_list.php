@@ -43,8 +43,11 @@ function register_andyp_plugin($args)
         $message .= '<h3>README.md</h3>';
 
         $Parsedown = new Parsedown();
-        $readme_file .= file_get_contents($readme);
-        $message .= $Parsedown->text($readme_file);
+        $readmefile = file_get_contents($readme);
+        if ($readmefile){
+            $message .= $Parsedown->text($readmefile);
+        }
+        
     } else {
         $message .= '<hr/>';
         $message .= '<h3>No README.md found.</h3>';
