@@ -62,7 +62,8 @@ function register_andyp_plugin($args)
         $message .= '<hr/>';
         $message .= '<h3>Git Log</h3>';
         $log = get_git_log($plugin);
-        $message .= '<pre style="background:#242424; color:#fafafa; padding:20px">'.$log.'</pre>';
+        // $message .= '<pre style="background:#242424; color:#fafafa; padding:20px">'.$log.'</pre>';
+        $message .= '<div class="ue__codemirror"><textarea>'.$log.'</textarea></div>';
     }
     
 
@@ -120,7 +121,7 @@ function register_andyp_plugin($args)
                 ),
                 'hide_admin' => 0,
                 'message' => $message ,
-                'new_lines' => 'wpautop',
+                'new_lines' => 'none',
                 'esc_html' => 0,
             ),
         );
