@@ -1,0 +1,24 @@
+[
+    {
+        "key": "group_5fe60b14d73ba",
+        "title": "AndyP Installed Plugins",
+        "fields": [],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "andyp_plugin_list"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

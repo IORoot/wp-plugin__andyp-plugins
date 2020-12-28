@@ -10,7 +10,7 @@ if( function_exists('acf_add_local_field_group') ):
 
     acf_add_local_field_group(array(
         'key' => 'group_5fe60b14d73ba',
-        'title' => 'Installed Plugins',
+        'title' => 'AndyP Installed Plugins',
         'fields' => array(
         ),
         'location' => array(
