@@ -92,7 +92,7 @@ function register_andyp_plugin($args)
                 'hide_admin' => 0,
                 'placement' => 'left',
                 'endpoint' => 0,
-            ),
+            )
         );
     }
 
@@ -123,7 +123,7 @@ function register_andyp_plugin($args)
                 'message' => $message ,
                 'new_lines' => 'none',
                 'esc_html' => 0,
-            ),
+            )
         );
     }
 
