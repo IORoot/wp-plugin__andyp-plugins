@@ -1,12 +1,10 @@
 
-
 <div id="top"></div>
 
 <div align="center">
 
-<div style="filter: invert(54%) sepia(99%) saturate(388%) hue-rotate(90deg) brightness(95%) contrast(86%);">
-<img src="https://cdn.jsdelivr.net/npm/@mdi/svg@6.7.96/svg/toy-brick-plus.svg" style="width:200px;"/>
-</div>
+
+<img src="https://svg-rewriter.sachinraja.workers.dev/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40mdi%2Fsvg%406.7.96%2Fsvg%2Ftoy-brick-plus.svg&fill=%23FB7185&width=200px&height=200px" style="width:200px;"/>
 
 <h3 align="center">AndyP Plugin Manager</h3>
 
